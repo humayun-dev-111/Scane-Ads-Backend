@@ -1,13 +1,13 @@
 import express from "express";
-import { AuthRoutes } from "../modules/Auth/auth.route";
-import { BannerRoutes } from "../modules/banner/banner.routes";
-import { BundleRoutes } from "../modules/Bundle/Bundle.routes";
-import { CampaignRoutes } from "../modules/Campaign/campaign.route";
-import { ChatRoutes } from "../modules/Chat/chat.route";
-import { getInTouchRoutes } from "../modules/GetInTouch/getInTouch.route";
-import { PaymentRoutes } from "../modules/Payment/Payment.routes";
-import { ScreenRoutes } from "../modules/Screen/Screen.routes";
-import { UserDataRoutes } from "../modules/User/user.route";
+import { AuthRoutes } from "../Modules/Auth/auth.route";
+import { BannerRoutes } from "../Modules/banner/banner.routes";
+import { BundleRoutes } from "../Modules/Bundle/Bundle.routes";
+import { CampaignRoutes } from "../Modules/Campaign/campaign.route";
+import { ChatRoutes } from "../Modules/Chat/chat.route";
+import { getInTouchRoutes } from "../Modules/GetInTouch/getInTouch.route";
+import { PaymentRoutes } from "../Modules/Payment/Payment.routes";
+import { ScreenRoutes } from "../Modules/Screen/Screen.routes";
+import { UserDataRoutes } from "../Modules/User/user.route";
 
 const router = express.Router();
 
