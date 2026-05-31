@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 import status from "http-status";
 import globalErrorHandler from "./app/middlewares/globalErrorHandler";
 import router from "./app/routes";
-import { PaymentController } from "./app/modules/Payment/Payment.controller";
+import { PaymentController } from "./app/Modules/Payment/Payment.controller";
 
 const app: Application = express();
 
