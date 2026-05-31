@@ -17,6 +17,7 @@ app.use(
       "http://localhost:5176",
       "https://scne-ads.netlify.app",
       "https://scene-ads.netlify.app",
+      "https://scne-ads.web.app",
       "*",
     ],
     credentials: true,
